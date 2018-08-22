@@ -10,11 +10,21 @@
 		img{
 			max-width: 100%;
 			vertical-align: top;
+			/*display: none;*/
+		}
+		img#responsive{
+			display: none;
+		}
+		@media screen and (max-width: 768px){
+			img#responsive{
+				display: block;
+			}
 		}
 	</style>
 </head>
 <body>
-	<img src="portada2.png" alt="">
+	<img src="portada2.png" alt="" id="responsive">
+	<img src="portada.png" alt="" >
 	<img src="helado.png" alt="">
 	<img src="helado2.png" alt="">
 	<img src="helado3.png" alt="">

@@ -1,2 +1,2 @@
 # EjemploGit
-Aplicación de ejemplo
+Este es un ejemplo de como funciona github con git
